@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("https://e0.pxfuel.com/wallpapers/63/653/desktop-wallpaper-fitness-background-gym-black.jpg");
+    width: 97%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+
+}
+
+.navbar-elements{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+
+}
+.navbar-elements a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 36px;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+
+}
+
+@media (max-width: 768px){
+    .navbar-elements{
+        flex-direction: column;
+    }
+    .logo{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+}
+
