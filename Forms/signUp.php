@@ -1,5 +1,5 @@
 <?php
-ini_set("display_errors", 1) ;
+
 
 $servername = "localhost"; $username = "root"; $password = "Sebastian11082003!"; $dbName = "mydb";
 
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     Password: <input type="password" id="pass" name="password" > <br><br>
     Confirm Password: <input type="password" id="pass1" name="password1" <br><br>
     <input type="submit" id="submit" name="submit" value="Login"> <br><br>
-    Have an account already? <a href="index.php"> Log in!</a>
+    Have an account already? <a href="../landingPage.php"> Log in!</a>
 
     </form>
 </div>
