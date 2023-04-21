@@ -52,10 +52,14 @@ $conn->close();
                     <div class="linksRight">
                         <a href="#">Om os</a>
                         <div class="dropdown">
-                          <p id="profile" class="dropbtn" onclick="dropdown()"
+                          <p id="profile" class="dropbtn" onclick="dropdown()">
                             <?php
-                                if (isset($_SESSION['user']))
-                            ?>> <?php echo 'Welcome '. $_SESSION['user']['username'] ?> </p>
+                                if (!isset($_SESSION['user'])) {
+                                    echo 'Login ';
+                                } else {
+                                    echo 'Welcome ' . $_SESSION['user']['username'];
+                                }
+                                 ?> </p>
 
                             <div id="dropdownContent" class="dropdown-content">
                                 <a href="#">Profile</a>
