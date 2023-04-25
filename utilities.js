@@ -1,9 +1,15 @@
+//Redirect to loginPage
 function loginPage() {
     window.location.href="index.php";
 }
 
+//Redirect to landingPage
 function logout() {
-    window.location.href="landingPage.php";
+    fetch("logOut.php")
+        .then(response => response.text())
+        .then(data => {
+            console.log('session destroyed');
+        })
 }
 
 /*

@@ -3,8 +3,11 @@
 
 $servername = "localhost"; $username = "root"; $password = "Sebastian11082003!"; $dbName = "mydb";
 
-
+//Database connection
 $conn = new mysqli($servername, $username, $password, $dbName);
+
+
+//After wthe users fills the form it passes mySql query to insert it and save
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $newUser = $_POST["name"];
     $newEmail = $_POST["email"];
@@ -14,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $stmt = $conn->prepare($insertQuery);
     $stmt->bind_param("sss",$newUser, $newPass, $newEmail);
     $stmt->execute();
-    header("Location:../login.php");
+    header("Location:../landingPage.php");
 }
 ?>
 <!DOCTYPE html>

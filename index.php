@@ -5,7 +5,7 @@ $username = "root";
 $password = "Sebastian11082003!";
 $dbName = "mydb";
 
-
+//Database connection
 $conn = new mysqli($servername, $username, $password, $dbName);
 ?><!DOCTYPE html>
 <html lang="en">
@@ -18,6 +18,7 @@ $conn = new mysqli($servername, $username, $password, $dbName);
 <body>
 <div class="loginForm">
     <form action="landingPage.php" method="POST" class="">
+
         Login <br><br>
         Username:  <input type="text" id="fname" name="fname" > <br> <br>
         Password: <input type="password" id="lname" name="lname" > <br><br>
