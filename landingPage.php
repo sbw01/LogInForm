@@ -1,5 +1,5 @@
 <?php
-
+require_once('navbar.php');
 //Creating session
 session_start();
 
@@ -37,39 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="CSS/landingPage.css">
 </head>
     <body>
-        <section>
-            <div class="navbar">
-                <div class="navbar-elements">
-                    <div class="linksLeft">
-                        <a href="#">Contact</a>
-                        <a href="#">Catalogue</a>
-                    </div>
-                    <div class="logo">
-                        <h1>GYMSHOPPEN<h1>
-                    </div>
-                    <div class="linksRight">
-                        <a href="#">Om os</a>
-                        <div class="dropdown">
-                          <p id="profile" class="dropbtn" onclick="dropdown()">
-                            <?php
-                            //Checks if user is logged in by checking data
-                                if (!isset($_SESSION['user'])) {
-                                    echo 'Login ';
-                                } else {
-                                    echo 'Welcome ' . $_SESSION['user']['username']; }
-                                ?>
-                          </p>
-                            <div id="dropdownContent" class="dropdown-content">
-                                <a href="#">Profile</a>
-                                <a href="index.php">Log in</a>
-                                <a href="Forms/signUp.php">Sign in</a>
-                                <p onclick="document.location.href='logOut.php'">Log out</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
     </body>
 </html>
 

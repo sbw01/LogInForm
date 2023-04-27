@@ -41,7 +41,7 @@ if (isset($POST['login'])){
     } else {
      echo '<script type = "text/javascript">';
      echo 'alert("Invalid Username or Password")';
-     echo 'window.location.href = "index.php"';
+     echo 'window.location.href = "logIn.php"';
      echo '</script>';
     }
 }
