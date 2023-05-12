@@ -1,7 +1,8 @@
 <?php
-require_once('navbar.php');
+
 //Creating session
 session_start();
+
 
 $servername = "localhost";
 $username = "root";
@@ -28,6 +29,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
     $conn->close();
+
+require_once('navbar.php');
 ?>
 
 <html lang="en">

@@ -6,8 +6,10 @@
 
 body{
     background-image: url("https://t4.ftcdn.net/jpg/00/49/63/65/360_F_49636530_c5nCkLmWDW2wQSLK7IVyF3JJWkrBAIjd.jpg");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .loginForm{

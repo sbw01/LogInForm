@@ -29,7 +29,7 @@ $conn = new mysqli($servername, $username, $password, $dbName);
 </div>
 <?php
 
-if (isset($POST['login'])){
+if (isset($_POST['login'])){
     $Username = $_POST['fname'];
     $Pass = $_POST['lname'];
     $select = mysqli_query($conn, "SELECT * FROM users WHERE username = '$Username' AND password = '$Pass'");
