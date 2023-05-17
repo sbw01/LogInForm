@@ -40,9 +40,82 @@ require_once('navbar.php');
     <link rel="stylesheet" href="CSS/landingPage.css">
 </head>
     <body>
+        <div class="row">
+            <div class="column">
+                <div class="card"><p>Enhanced Performance Nutrition's brand new pre-workout has finally hit the market.
+                    Mastered and innovated to tackle all aspects of what's truly needed in a pre-workout supplement,
+                    without jeopardizing the taste. There's just too many typical,
+                    boring and aimless pre-workout supplements on the market.
+                    We made sure to formulate a perfectly
+                    dosed supplement in order for you to have the best workout possible.</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card"><img src="https://static.wixstatic.com/media/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png/v1/fill/w_434,h_543,al_c,usm_0.66_1.00_0.01/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png" alt="balistic PWO">
+                    <p>Enhanced Performance Nutrition's brand new pre-workout has finally hit the market.
+                        Mastered and innovated to tackle all aspects of what's truly needed in a pre-workout supplement,
+                        without jeopardizing the taste. There's just too many typical,
+                        boring and aimless pre-workout supplements on the market.
+                        We made sure to formulate a perfectly
+                        dosed supplement in order for you to have the best workout possible.</p></div>
+            </div>
+            <div class="column">
+                <div class="card"><img src="https://static.wixstatic.com/media/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png/v1/fill/w_434,h_543,al_c,usm_0.66_1.00_0.01/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png" alt="balistic PWO">
+                    <p>Enhanced Performance Nutrition's brand new pre-workout has finally hit the market.
+                        Mastered and innovated to tackle all aspects of what's truly needed in a pre-workout supplement,
+                        without jeopardizing the taste. There's just too many typical,
+                        boring and aimless pre-workout supplements on the market.
+                        We made sure to formulate a perfectly
+                        dosed supplement in order for you to have the best workout possible.</p></div>
+            </div>
+            <div class="column">
+                <div class="card"><img src="https://static.wixstatic.com/media/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png/v1/fill/w_434,h_543,al_c,usm_0.66_1.00_0.01/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png" alt="balistic PWO">
+                    <p>Enhanced Performance Nutrition's brand new pre-workout has finally hit the market.
+                        Mastered and innovated to tackle all aspects of what's truly needed in a pre-workout supplement,
+                        without jeopardizing the taste. There's just too many typical,
+                        boring and aimless pre-workout supplements on the market.
+                        We made sure to formulate a perfectly
+                        dosed supplement in order for you to have the best workout possible.</p></div>
+            </div>
+            <div class="column">
+                <div class="card"><img src="https://static.wixstatic.com/media/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png/v1/fill/w_434,h_543,al_c,usm_0.66_1.00_0.01/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png" alt="balistic PWO">
+                    <p>Enhanced Performance Nutrition's brand new pre-workout has finally hit the market.
+                        Mastered and innovated to tackle all aspects of what's truly needed in a pre-workout supplement,
+                        without jeopardizing the taste. There's just too many typical,
+                        boring and aimless pre-workout supplements on the market.
+                        We made sure to formulate a perfectly
+                        dosed supplement in order for you to have the best workout possible.</p>/div>
+            </div>
+            <div class="column">
+                <div class="card"><img src="https://static.wixstatic.com/media/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png/v1/fill/w_434,h_543,al_c,usm_0.66_1.00_0.01/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png" alt="balistic PWO">
+                    <p>Enhanced Performance Nutrition's brand new pre-workout has finally hit the market.
+                        Mastered and innovated to tackle all aspects of what's truly needed in a pre-workout supplement,
+                        without jeopardizing the taste. There's just too many typical,
+                        boring and aimless pre-workout supplements on the market.
+                        We made sure to formulate a perfectly
+                        dosed supplement in order for you to have the best workout possible.</p></div>
+            </div>
+            <div class="column">
+                <div class="card"><img src="https://static.wixstatic.com/media/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png/v1/fill/w_434,h_543,al_c,usm_0.66_1.00_0.01/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png" alt="balistic PWO">
+                    <p>Enhanced Performance Nutrition's brand new pre-workout has finally hit the market.
+                        Mastered and innovated to tackle all aspects of what's truly needed in a pre-workout supplement,
+                        without jeopardizing the taste. There's just too many typical,
+                        boring and aimless pre-workout supplements on the market.
+                        We made sure to formulate a perfectly
+                        dosed supplement in order for you to have the best workout possible.</p></div>
+            </div>
+            <div class="column">
+                <div class="card"><img src="https://static.wixstatic.com/media/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png/v1/fill/w_434,h_543,al_c,usm_0.66_1.00_0.01/6ea1e6_f737af9a0f984c0db4f4f71663bf5703~mv2.png" alt="balistic PWO">
+                    <p>Enhanced Performance Nutrition's brand new pre-workout has finally hit the market.
+                        Mastered and innovated to tackle all aspects of what's truly needed in a pre-workout supplement,
+                        without jeopardizing the taste. There's just too many typical,
+                        boring and aimless pre-workout supplements on the market.
+                        We made sure to formulate a perfectly
+                        dosed supplement in order for you to have the best workout possible.</p></div>
+            </div>
 
+        </div>
     </body>
 </html>
 
 <script src="./utilities.js"></script>
-

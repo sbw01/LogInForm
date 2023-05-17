@@ -12,3 +12,47 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*Float 4 columns side by side*/
+.column{
+    margin: 0 25px 10px 25px;
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    color: black;
+
+}
+/*Remove extra left and right space*/
+.row {margin: 0 -5px;}
+
+/*Clear floats after the colunmns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+p{
+    color: black;
+}

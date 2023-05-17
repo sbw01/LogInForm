@@ -3,6 +3,14 @@ function loginPage() {
     window.location.href="logIn.php";
 }
 
+async function getSearchResults(){
+    //
+    //
+    var response = await fetch("search.php?q=cat");
+    var data = await response.text();
+    console.log(data);
+    //
+}
 
 /*
 /* When the user clicks on the button,
@@ -32,4 +40,21 @@ window.onclick = function(event) {
             }
         }
     }
+}
+
+function search_animal(){
+    let input = document.getElementById('mysearch').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('animals    ');
+     for (i = 0; i < x.length; i++){
+         if (!x[i].innerHTML.toLowerCase().includes(input)){
+             x[i].style.display="none";
+         }else{
+             x[i].style.display="list-item";
+         }
+     }
+}
+
+function test(){
+    document.getElementById('mysearch').value = '';
 }
